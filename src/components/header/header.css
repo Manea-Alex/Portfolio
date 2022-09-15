@@ -59,7 +59,8 @@ header {
   border-radius:12rem 12rem 0 0;
   overflow: hidden;
   padding: 5rem 1.5rem 1.5rem 1.5rem; 
-  margin: 0 auto; /* asta pentru centrare */
+  /* margin: 0 auto; */
+   /* asta pentru centrare */
   margin-top: 4rem;
   position: relative;
   
