@@ -6,7 +6,7 @@ import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio4.jpg";
 import IMG5 from "../../assets/portfolio5.png";
 import IMG6 from "../../assets/portfolio6.jpg";
-import {GiArchiveResearch} from 'react-icons/gi';
+import { GiArchiveResearch } from "react-icons/gi";
 
 const data = [
   {
@@ -20,9 +20,9 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: "Charts templates & infographics in Figma",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/16580766-Orion-UI-kit-Charts-templates-infographics-in-Figma",
+    title: "Fighting Game",
+    github: "https://github.com/Manea-Alex/Fighting-Game",
+    demo: "https://manea-alex.github.io/Fighting-Game/",
   },
   {
     id: 3,
@@ -66,7 +66,6 @@ const Portofolio = () => {
           return (
             <article key={id} className="portofolio__item">
               <div className="portofolio__item-image">
-            
                 <img src={image} alt={title} />
               </div>
               <h3>{title}</h3>
