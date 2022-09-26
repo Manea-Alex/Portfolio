@@ -27,34 +27,34 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: "Figma dashboard UI kit for data design web apps",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps",
+    title: "Calculator Project",
+    github: "https://github.com/Manea-Alex/Project_Calculator",
+    demo: "https://manea-alex.github.io/Project_Calculator/",
   },
 
   {
     id: 4,
     image: IMG4,
-    title: "Maintaining tasks and tracking progress",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/16955822-Maintaining-tasks-and-tracking-progress",
+    title: "Negombo",
+    // github: "",
+    demo: "https://prenotazioni.negombo.it/",
   },
 
-  {
-    id: 5,
-    image: IMG5,
-    title: "Charts templates & infographics in Figma",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/16541289-Orion-UI-kit-Charts-templates-infographics-in-Figma",
-  },
+  // {
+  //   id: 5,
+  //   image: IMG5,
+  //   title: "Charts templates & infographics in Figma",
+  //   github: "https://github.com",
+  //   demo: "https://dribbble.com/shots/16541289-Orion-UI-kit-Charts-templates-infographics-in-Figma",
+  // },
 
-  {
-    id: 6,
-    image: IMG6,
-    title: "Charts templates & infographics in Figma",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/16541289-Orion-UI-kit-Charts-templates-infographics-in-Figma",
-  },
+  // {
+  //   id: 6,
+  //   image: IMG6,
+  //   title: "Charts templates & infographics in Figma",
+  //   github: "https://github.com",
+  //   demo: "https://dribbble.com/shots/16541289-Orion-UI-kit-Charts-templates-infographics-in-Figma",
+  // },
 ];
 const Portofolio = () => {
   return (
