@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.860c79aa.css",
-    "main.js": "/Portfolio/static/js/main.29b797da.js",
+    "main.js": "/Portfolio/static/js/main.6f61228d.js",
     "static/media/me.png": "/Portfolio/static/media/me.821ecddcb9953b46bf75.png",
     "static/media/me-about.jpg": "/Portfolio/static/media/me-about.fb4452e7f286d3636ef9.jpg",
     "static/media/Portofoliu4.jpg": "/Portfolio/static/media/Portofoliu4.379e293c7364c0aed429.jpg",
+    "static/media/portfolio4.jpg": "/Portfolio/static/media/portfolio4.5ab52e025a4f7bf3cef4.jpg",
     "static/media/etch-a-sketch.jpg": "/Portfolio/static/media/etch-a-sketch.46db588f153337d7dc95.jpg",
     "static/media/portfolio5.png": "/Portfolio/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
     "static/media/Alexandru_Szoke-Manea_CV_2022.pdf": "/Portfolio/static/media/Alexandru_Szoke-Manea_CV_2022.a285141fe8ed4080e5a4.pdf",
     "static/media/Portofoliu5.jpg": "/Portfolio/static/media/Portofoliu5.a2f0a4cf501b4750e992.jpg",
     "static/media/portfolio2.jpg": "/Portfolio/static/media/portfolio2.7fc89082ae7ae54b7e6d.jpg",
     "static/media/portfolio6.jpg": "/Portfolio/static/media/portfolio6.72d1107e313049cf15a7.jpg",
-    "static/media/portfolio3.jpg": "/Portfolio/static/media/portfolio3.cbab42559fe73e73906f.jpg",
-    "static/media/portfolio4.jpg": "/Portfolio/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
+    "static/media/portfolio3.jpg": "/Portfolio/static/media/portfolio3.8b0b6f1fec1ab1a01354.jpg",
     "index.html": "/Portfolio/index.html",
     "main.860c79aa.css.map": "/Portfolio/static/css/main.860c79aa.css.map",
-    "main.29b797da.js.map": "/Portfolio/static/js/main.29b797da.js.map"
+    "main.6f61228d.js.map": "/Portfolio/static/js/main.6f61228d.js.map"
   },
   "entrypoints": [
     "static/css/main.860c79aa.css",
-    "static/js/main.29b797da.js"
+    "static/js/main.6f61228d.js"
   ]
 }
