@@ -63,8 +63,7 @@ header {
 .scroll__down {
   margin-right: -12rem;
 }
-img {
-}
+
 /* ========== SCROLL DOWN ======== */
 .scroll__down {
   position: absolute;
@@ -76,12 +75,14 @@ img {
 }
 
 /* ======== MEDIA QUERY(SMedium Devices) ======= */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) and (min-width: 1023px) {
   /* .container{
     background: red;
 } */
   header {
     height: 68vh;
+    overflow: visible;
+    margin-bottom: 30rem;
   }
   .scroll__down {
     position: absolute;
@@ -94,6 +95,8 @@ img {
 @media screen and (max-width: 600px) {
   header {
     height: 100vh;
+    overflow: visible;
+    margin-bottom: 12rem;
   }
 
   .header__socials,
@@ -105,6 +108,20 @@ img {
 @media screen and (max-width: 385px) {
   header {
     height: 140vh;
+  }
+
+  .header__socials,
+  .scroll__down {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1285px) {
+  header {
+    height: 140vh;
+  }
+  .about__me-Alex {
+    height: 26rem;
   }
 
   .header__socials,
