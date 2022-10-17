@@ -6,6 +6,7 @@ import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio4.jpg";
 import IMG5 from "../../assets/portfolio5.png";
 import IMG6 from "../../assets/portfolio6.jpg";
+import IMG7 from "../../assets/Tetris.jpg";
 import { GiArchiveResearch } from "react-icons/gi";
 
 const data = [
@@ -40,13 +41,13 @@ const data = [
     demo: "https://prenotazioni.negombo.it/",
   },
 
-  // {
-  //   id: 5,
-  //   image: IMG5,
-  //   title: "Charts templates & infographics in Figma",
-  //   github: "https://github.com",
-  //   demo: "https://dribbble.com/shots/16541289-Orion-UI-kit-Charts-templates-infographics-in-Figma",
-  // },
+  {
+    id: 5,
+    image: IMG7,
+    title: "Tetris",
+    github: "https://github.com/Manea-Alex/Tetris",
+    demo: "https://manea-alex.github.io/Tetris/",
+  },
 
   // {
   //   id: 6,
