@@ -18,19 +18,21 @@ const Nav = () => {
 
   function logit() {
     setScrollY(window.pageYOffset);
-    console.log(new Date().getTime());
+    console.log(
+      "Document height",
+      document.body.scrollHeight,
+      " Scrolly: ",
+      scrollY
+    );
   }
 
   useEffect(() => {
     function watchScroll() {
       window.addEventListener("scroll", logit);
     }
-    // let height = 1;
-    // if (document.body.scrollHeight < 5800) {
-    //   height = 500;
-    // }
     watchScroll();
     if (document.body.scrollHeight < 5800) {
+      console.log("Caz A");
       if (scrollY < 500) {
         setActiveNav("#");
       } else if (scrollY > 500 && scrollY < 1350) {
@@ -46,6 +48,7 @@ const Nav = () => {
       document.body.scrollHeight > 5800 &&
       document.body.scrollHeight < 6500
     ) {
+      console.log("Caz B");
       if (scrollY < 550) {
         setActiveNav("#");
       } else if (scrollY > 550 && scrollY < 1450) {
@@ -61,6 +64,7 @@ const Nav = () => {
       document.body.scrollHeight > 6500 &&
       document.body.scrollHeight < 7100
     ) {
+      console.log("Caz C");
       if (scrollY < 350) {
         setActiveNav("#");
       } else if (scrollY > 350 && scrollY < 1450) {
@@ -76,6 +80,7 @@ const Nav = () => {
       document.body.scrollHeight > 7100 &&
       document.body.scrollHeight < 8600
     ) {
+      console.log("Caz C");
       if (scrollY < 350) {
         setActiveNav("#");
       } else if (scrollY > 350 && scrollY < 1450) {
@@ -88,18 +93,20 @@ const Nav = () => {
         setActiveNav("#contact");
       }
     } else if (
-      document.body.scrollHeight > 8600 &&
-      document.body.scrollHeight < 9100
+      document.body.scrollHeight > 8600
+      // &&
+      // document.body.scrollHeight < 9100
     ) {
+      console.log("Caz D");
       if (scrollY < 350) {
         setActiveNav("#");
       } else if (scrollY > 350 && scrollY < 1450) {
         setActiveNav("#about");
       } else if (scrollY > 1950 && scrollY < 3000) {
         setActiveNav("#experience");
-      } else if (scrollY > 3000 && scrollY < 6450) {
+      } else if (scrollY > 3000 && scrollY < 7900) {
         setActiveNav("#portofolio");
-      } else if (scrollY > 6450) {
+      } else if (scrollY > 7900) {
         setActiveNav("#contact");
       }
     }

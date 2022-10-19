@@ -38,6 +38,9 @@
     grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
   }
+  /* .portofolio__item-image img {
+    width: 70vw !important;
+  } */
 }
 
 /* ======== MEDIA QUERY(Small Devices) ======= */

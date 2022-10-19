@@ -126,7 +126,7 @@ img {
 }
 
 /* ======== MEDIA QUERY(Small Devices) ======= */
-@media screen and(max-width:600px) {
+@media screen and(max-width:600px) and (min-width: 1px) {
   .container {
     width: var(--container-width-sm);
   }
@@ -134,3 +134,16 @@ img {
     margin-bottom: 2rem;
   }
 }
+
+/* @media screen and(max-width:850px) and (min-width: 601px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+  section > h2 {
+    margin-bottom: 2rem;
+  }
+
+  img {
+    width: 2rem;
+  }
+} */
