@@ -38,7 +38,7 @@ const data = [
     image: IMG4,
     title: "Negombo",
     // github: "",
-    demo: "https://prenotazioni.negombo.it/",
+    demo: "https://negombo.it/en/",
   },
 
   {
