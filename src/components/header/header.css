@@ -92,7 +92,7 @@ header {
 }
 
 /* ======== MEDIA QUERY(Small Devices) ======= */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) and (min-width: 386px) {
   header {
     height: 100vh;
     overflow: visible;
@@ -103,6 +103,9 @@ header {
   .scroll__down {
     display: none;
   }
+  /* #root {
+    width: 50rem;
+  } */
 }
 
 @media screen and (max-width: 385px) {
@@ -113,6 +116,9 @@ header {
   .header__socials,
   .scroll__down {
     display: none;
+  }
+  footer {
+    width: 40rem;
   }
 }
 

@@ -1,0 +1,36 @@
+Nexus 4 - 8925px
+Nexu 5 - 8823px
+Nexus 5X - 8689px
+Iphone SE - 8963px
+Iphone XR - 8925px
+Iphone 12 Pro - 8873px
+Pixel 5 - 8880
+Samsung Galaxy S8+ - 9065px
+Samsung Galaxy S20 ultra - 8944px
+Ipad Air - 6884px
+Ipad  Mini - 6778px
+Surface Pro 7 - 7046px
+Surface Duo - 8749px
+Galaxy Fold - 8943px
+Samsung Galaxy A51/71 - 8943px
+Nest Hub - 6511px
+Nest Hub Max - 5653px
+
+
+  if (scrollY < 500) {
+      setActiveNav("#");
+    } else if (scrollY > 500 && scrollY < 1350) {
+      setActiveNav("#about");
+    } else if (scrollY > 1350 && scrollY < 2100) {
+      setActiveNav("#experience");
+    } else if (scrollY > 2100 && scrollY < 3650) {
+      setActiveNav("#portofolio");
+    } else if (scrollY > 3650) {
+      setActiveNav("#contact");
+    }
+
+
+Responsiveness header pt. Nexus 5, 5x, surface duo, nest hub(scroll e pe mijloc), nest hub max
+ // <div className="App">
+      //   <div className="fixed-center">Scroll position: {scrollY}px</div>
+      // </div>

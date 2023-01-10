@@ -36,8 +36,8 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_fsi080v",
-        "template_8uo60ab",
+        "service_w2hb3yp",
+        "template_1aqxmjl",
         form.current,
         "L0SS-H3NdZXiFrsY7"
       )
@@ -75,7 +75,6 @@ const Contact = () => {
             <a href="https://m.me/alex.manea.391082" target="_blank">
               Send a message
             </a>
-            
           </article>
 
           <article className="contact__option">
@@ -121,7 +120,7 @@ const Contact = () => {
               Your Message Successfully Sent!
             </div>
             <div class="danger" id="danger">
-              Feilds Can't be Empty!
+              Fields Can't be Empty!
             </div>
           </div>
         </form>
