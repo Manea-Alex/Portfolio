@@ -1,25 +1,22 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.98a74b00.css",
-    "main.js": "/Portfolio/static/js/main.18108f2f.js",
-    "static/media/me.png": "/Portfolio/static/media/me.821ecddcb9953b46bf75.png",
-    "static/media/me-about.jpg": "/Portfolio/static/media/me-about.fb4452e7f286d3636ef9.jpg",
+    "main.css": "/Portfolio/static/css/main.47f6de34.css",
+    "main.js": "/Portfolio/static/js/main.b84aa6ab.js",
     "static/media/Portofoliu4.jpg": "/Portfolio/static/media/Portofoliu4.379e293c7364c0aed429.jpg",
     "static/media/portfolio4.jpg": "/Portfolio/static/media/portfolio4.5ab52e025a4f7bf3cef4.jpg",
+    "static/media/Flight.jpg": "/Portfolio/static/media/Flight.5ceba73209950b8e9042.jpg",
     "static/media/etch-a-sketch.jpg": "/Portfolio/static/media/etch-a-sketch.46db588f153337d7dc95.jpg",
-    "static/media/portfolio5.png": "/Portfolio/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
-    "static/media/CV_Szőke_Manea_Alexandru_2023.pdf": "/Portfolio/static/media/CV_Szőke_Manea_Alexandru_2023.8a5b8b3abf58fffbcc3f.pdf",
+    "static/media/CV_Szőke_Manea_Alexandru_2023.pdf": "/Portfolio/static/media/CV_Szőke_Manea_Alexandru_2023.0292ccff96570e84f7c3.pdf",
     "static/media/Portofoliu5.jpg": "/Portfolio/static/media/Portofoliu5.a2f0a4cf501b4750e992.jpg",
     "static/media/portfolio2.jpg": "/Portfolio/static/media/portfolio2.7fc89082ae7ae54b7e6d.jpg",
     "static/media/portfolio3.jpg": "/Portfolio/static/media/portfolio3.8b0b6f1fec1ab1a01354.jpg",
-    "static/media/Tetris.jpg": "/Portfolio/static/media/Tetris.a33153544d2a756e64b7.jpg",
     "static/media/Tic-Tac-Toe.jpg": "/Portfolio/static/media/Tic-Tac-Toe.09ce9a3490541eb21237.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.98a74b00.css.map": "/Portfolio/static/css/main.98a74b00.css.map",
-    "main.18108f2f.js.map": "/Portfolio/static/js/main.18108f2f.js.map"
+    "main.47f6de34.css.map": "/Portfolio/static/css/main.47f6de34.css.map",
+    "main.b84aa6ab.js.map": "/Portfolio/static/js/main.b84aa6ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.98a74b00.css",
-    "static/js/main.18108f2f.js"
+    "static/css/main.47f6de34.css",
+    "static/js/main.b84aa6ab.js"
   ]
 }
