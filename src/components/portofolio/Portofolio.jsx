@@ -4,9 +4,9 @@ import IMG1 from "../../assets/etch-a-sketch.jpg";
 import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
+import IMG5 from "../../assets/Flight.jpg";
 import IMG6 from "../../assets/Tic-Tac-Toe.jpg";
-import IMG7 from "../../assets/Tetris.jpg";
+
 import { GiArchiveResearch } from "react-icons/gi";
 
 const data = [
@@ -43,10 +43,10 @@ const data = [
 
   {
     id: 5,
-    image: IMG7,
-    title: "Tetris",
-    github: "https://github.com/Manea-Alex/Tetris",
-    demo: "https://manea-alex.github.io/Tetris/",
+    image: IMG5,
+    title: "Flight Search Application",
+    github: "https://github.com/Manea-Alex/Air-Wise",
+    demo: "https://manea-alex.github.io/Air-Wise/",
   },
 
   {
@@ -71,7 +71,7 @@ const Portofolio = () => {
               </div>
               <h3>{title}</h3>
               <div className="portofolio__item-cta">
-                <a href={github} className="btn">
+                <a href={github} className="btn" target="_blank">
                   Github
                 </a>
                 <a href={demo} className="btn btn-primary" target="_blank">

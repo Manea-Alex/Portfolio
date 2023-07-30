@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me-about.jpg";
 import Alex from "../../assets/Portofoliu4.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
@@ -34,14 +33,15 @@ const About = () => {
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Experience</h5>
-              <small>3 Months Working</small>
+              <small>6+ Months Working</small>
             </article>
           </div>
           <p>
-           Hello, my name is Szőke-Manea Alexandru. I'm studying Automation and Computer
-           Science at the Technical University of Cluj-Napoca and I will graduate next year.
-           I am looking to enhance my programming skills and I am ready to face a new challenge.
-           I desire to continue my career in this domain, investing in my professional development
+            Hi, I'm Szőke-Manea Alexandru, a recent graduate in Automation and
+            Computer Science from the Technical University of Cluj-Napoca.
+            Equipped with enhanced programming skills, I'm eager to take on
+            fresh challenges in this field. Committed to professional
+            development, I aim to continue advancing my career in this industry.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
